@@ -12,7 +12,6 @@ router.get("/", (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-  v;
 });
 
 // GET /api/users/1
